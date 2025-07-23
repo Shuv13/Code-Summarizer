@@ -1,10 +1,5 @@
 # Code Change Summarizer
 
-[![Tests](https://github.com/Shuv13/Code-Summarizer/actions/workflows/test.yml/badge.svg)](https://github.com/Shuv13/Code-Summarizer/actions/workflows/test.yml)
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 A Python tool that analyzes git diffs and generates intelligent, human-readable summaries of code changes. Perfect for code reviews, change tracking, and understanding what modifications were made to your codebase.
 
 ## Features
@@ -281,14 +276,3 @@ tests/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Changelog
-
-### Version 0.1.0
-- Initial release
-- Multi-language support for Python, JavaScript, TypeScript, Java, Go, Rust
-- Multiple output formats (plain text, Markdown, JSON)
-- Custom template support
-- Comprehensive error handling
-- Command-line interface
-- Extensive test coverage (114 tests)
