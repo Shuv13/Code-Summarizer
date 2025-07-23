@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+"""
+Entry point script for Code Change Summarizer.
+This script can be used to run the tool directly.
+"""
+
+import sys
+import os
+
+# Add the parent directory to the Python path so we can import code_summarizer
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+from code_summarizer.cli import main
+
+if __name__ == '__main__':
+    sys.exit(main())

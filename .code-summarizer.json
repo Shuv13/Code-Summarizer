@@ -1,0 +1,12 @@
+{
+  "output_format": "markdown",
+  "quiet": false,
+  "include_recommendations": true,
+  "include_key_changes": true,
+  "complexity_threshold": 5,
+  "max_file_size": 1000000,
+  "custom_templates": {
+    "brief": "Changed {total_files} files: +{lines_added}/-{lines_removed}",
+    "detailed": "Summary: {overview}\n\nKey Changes:\n{key_changes}\n\nRecommendations:\n{recommendations}"
+  }
+}

@@ -1,0 +1,5 @@
+# Core dependencies for code change summarizer
+# No external dependencies needed for basic functionality - using Python stdlib only
+
+# Development dependencies
+pytest>=7.0.0
